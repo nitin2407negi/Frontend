@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css BORDER</title>
+    <style>
+        body
+        {
+            background-color: black;
+            color: white;
+        }
+        img
+        {
+            border-style: solid;
+            border-color: yellow;
+            border-width: 10px;
+            height: 400px;
+            width: 400px;
+            border-radius: 100%;
+            margin: 100px;
+            
+        }
+        img:hover{
+            /* border-color: blue; */
+            border-width: 20px;
+            border-style: double;
+        }
+        .image1
+        {
+            border-style: dotted;
+            border-color: rgb(57, 194, 93);
+            border-width: 10px;
+            height: 400px;
+            width: 400px;
+            border-radius: 100%; 
+        }
+       .image1:hover{
+            border-width: 15px;
+            border-style: dashed;
+        }
+        .image2
+        {
+            border-style: dotted;
+            border-color: rgb(234, 194, 36);
+            border-width: 10px;
+            height: 400px;
+            width: 400px;
+            border-radius: 100%; 
+        }
+        .image2:hover
+        {
+            border-width: 15px;
+            border-style: double;
+        }
+        .image3:hover
+        {
+            border-width: 15px;
+            border-style: dashed;
+        }
+        .image4:hover
+        {
+            border-width: 15px;
+            border-style: ridge;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/2168975/pexels-photo-2168975.jpeg?auto=compress&cs=tinysrgb&w=600" alt="new york">
+    <img class = "image1" src="https://cdn.pixabay.com/photo/2013/06/12/22/20/mountains-139012_1280.jpg" alt="usa">
+    <img class ="image2"src="https://cdn.pixabay.com/photo/2017/03/27/14/37/asia-2179107_640.jpg" alt="auto">
+    <!-- shortcut for 5 images=>img.img*5 -->
+    <img src="https://cdn.pixabay.com/photo/2018/09/04/16/48/taj-mahal-3654227_640.jpg" alt="" class="img3">
+    <img src="https://cdn.pixabay.com/photo/2016/11/14/03/22/elephant-1822481_640.jpg" alt="" class="img4">
+</body>
+</html>
