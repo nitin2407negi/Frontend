@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: white;
+}
+.box
+{
+    background-color: yellow;
+    height: 150px;
+    width: 150px ;
+    /* padding: 100px;
+    padding-top: 90px;
+    padding-left: 90px;
+    padding-right: 85px;
+    padding-bottom: 72px; */
+    padding: 113px 197px 143px 156px;
+    border: 10px solid blue;
+    outline: 20px solid red;
+    outline-offset: 15px dotted ;
+    margin: 138px;
+}
+h1
+{
+    color: black;
+    font-size: 50px;
+}
