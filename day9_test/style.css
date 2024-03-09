@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+form{
+    margin: 50px 592px 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 550px;
+    width: 370px;
+    border: 3px solid white;
+    border-radius: 10px;
+   
+}
+form:hover{
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 100px seagreen;
+}
+#a
+{
+    border-radius: 10px;
+    background-color: black;
+}
+#b
+{
+    border-radius: 10px;
+    background-color: black;
+}
+#c
+{
+    border-radius: 10px;
+    background-color: black;
+}
+#d
+{
+    border-radius: 10px;
+    background-color: black;
+}
+
