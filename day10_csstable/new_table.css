@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+}
+table
+{
+    background-color: white;
+    padding: 50px;
+    margin: auto;
+    margin-top: 80px;
+    border: 10px solid red;
+    border-radius: 25px;
+}
+th{
+    background-color:aqua;
+    padding: 10px;
+    margin: auto;
+    padding: 20px;
+}
+td{
+    background-color: rgb(78, 56, 99);
+    padding: 10px;
+    text-align: center;
+    border: 2px solid green;
+}
+td:hover{
+    background-color: black;
+}

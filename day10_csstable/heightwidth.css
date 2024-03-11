@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 700px;
+    margin: auto;
+    background-color: brown;
+    max-height: 400px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}

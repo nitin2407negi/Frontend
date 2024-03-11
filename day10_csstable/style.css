@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: white;
+}
+a:visited{
+    color: red;
+}
+ul{
+    list-style-type: none;
+    background-color: blueviolet;
+    padding: 100px;
+    border: 2px solid yellow;
+    border-radius: 25px;
+}
+ul li{
+    background-color: rgb(40, 40, 124);
+    margin: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid aqua;
+}
+ul li:hover{
+    background-color: black;
+}

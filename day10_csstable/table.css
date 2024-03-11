@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+table{
+    background-color: blueviolet;
+    padding: 100px;
+    border-spacing: 15px;
+    margin: auto;
+    margin-top: 100px;
+    border: 12px solid yellow;
+}
+th{
+    background-color: yellow;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    width: 200px;
+    border: 1px solid black;
+}
+td{
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    width: 200px;
+}
+td:hover{
+    background-color: black;
+}
