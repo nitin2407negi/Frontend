@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+    color: white;
+}
+.box {
+    height: 44px;
+    width: 34px;
+    margin: 3px;
+    background-color: black;
+    float: left;
+}
+.box:hover{
+    background-color: orangered;
+}
