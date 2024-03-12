@@ -1,0 +1,35 @@
+body{
+    background-color: blueviolet;
+    color: white;
+}
+.box1{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 80px;
+    float: left;
+    font-size: 3.2rem;
+    text-align: center;
+}
+.box2{
+    background-color: white;
+    color: black;
+    height:80px;
+    width:80px;
+    float: left;
+    font-size: 3.2rem;
+    text-align: center;
+}
+.chessboard
+{
+    height: 640px;
+    width: 640px;
+    margin: auto;
+    margin-top: 42px;
+}
+.box1:hover{
+    background-color: orange;
+}
+.box2:hover{
+    background-color: orangered;
+}
