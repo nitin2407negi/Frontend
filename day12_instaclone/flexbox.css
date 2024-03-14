@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: lavenderblush;
+    margin: 10px;
+    border-radius: 100%;
+    border: 2px solid red;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.child:hover{
+    background-color: black;
+
+}
