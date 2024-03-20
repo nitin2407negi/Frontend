@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: white;
+}
+.mainbox{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.box1{
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+}
+.box2{
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+}
+.box3
+{
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+}

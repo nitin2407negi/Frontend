@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+}
+div{
+    background-color: brown;
+    margin: 10px;
+    visibility: hidden;
+}
+span{
+    background-color: yellowgreen;
+    margin: 10px;
+}

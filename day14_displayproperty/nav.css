@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color: white;
+}
+.box{
+    background-color: brown;
+}
+.items{
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+}
+.items:hover{
+    background-color: green;
+}
