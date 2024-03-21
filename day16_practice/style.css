@@ -1,0 +1,23 @@
+img{
+    height: 300px;
+    width: 300px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.A{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+table{
+    border: 1px solid;
+    text-align: center;  
+    border-collapse: collapse; 
+   
+}
+tr,td,th{
+    border: 1px solid ;
+    padding: 10px;
+}

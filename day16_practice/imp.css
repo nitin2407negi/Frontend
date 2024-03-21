@@ -1,0 +1,12 @@
+.logo img{
+    height: 120px;
+    width: 100px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.servicesgall{
+    display: flex;
+}
