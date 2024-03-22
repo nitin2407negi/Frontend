@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(to right top, red,yellow,green,blue);
+}
+.section1{
+    border:2px solid red;
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    margin: 100px 200px 200px 200px;
+}

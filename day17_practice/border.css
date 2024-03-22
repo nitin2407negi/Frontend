@@ -1,0 +1,12 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+div{
+  height: 500px;
+  width: 500px;
+  background-color: rgb(129, 129, 225);
+  border: 10px solid rgb(164, 89, 102);
+  padding: 50px 50px 50px 50px;
+}
