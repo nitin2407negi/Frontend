@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    gap: 15px;
+    background-color: blue;
+    padding: 20px;
+}
+.parentbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1{
+    height: 200px;
+    width: 150px;
+    background-color: blueviolet;
+    top: 1rem;   
+    border: 3px solid blue;
+    border-radius: 5%;
+    margin: 10px;
+   
+}

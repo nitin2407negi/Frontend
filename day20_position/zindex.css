@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    
+}
+.box{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+}
+
+.box1{
+   background-color: yellow;
+   z-index: 2;
+}
+.box2{
+    background-color: blue;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-heading{
+    color: black;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 600px;
+}
+.parent-div{
+    width: 1000px;
+    height: 600px;
+    color: #fff;
+    background: linear-gradient(to right,#514a9d,#24c6dc);
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    position: relative;
+    left: 225px;
+}
+.child{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to right,blue,rgb(112, 112, 217));
+    color: black;
+    position: absolute;
+    
+}
+.child-2{
+    top: 0;
+    right: 0;  
+}
+.child-3{
+    bottom: 0;
+    right: 0;
+}
+.child-4{
+    bottom: 0;
+    left: 0;
+}
