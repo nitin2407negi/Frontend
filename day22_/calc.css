@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: blue;
+    padding: 20px;
+}
+.content{
+    height: calc(90vh - 40px);
+    overflow: auto;
+}
+.content::-webkit-scrollbar{
+    display: none;
+}
+.footer{
+    background-color: blue;
+    padding: 20px;
+}

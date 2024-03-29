@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+}
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .items{
+    padding: 20px;
+}
+.dropdown{
+    display: none;
+    position: relative;
+}
+#dp:hover .dropdown{
+  display: block;
+  position: absolute;
+  top: 65px;
+}
+.dropitems{
+    height: 50px;
+    width: 90px;
+    background-color: gray;
+}
+.dropitems:hover{
+    background-color: blue;
+}
+.right .items:hover{
+    background-color: green;
+}
+.items:nth-child(2):hover{
+    background-color: black;
+}
+
+

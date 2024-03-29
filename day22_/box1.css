@@ -1,0 +1,22 @@
+body{
+background-color: black;
+color: white;
+}
+.container{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    margin-top: 5%;
+    border: 2px solid yellow;
+
+}
+.box{
+    height: 180px;
+    width: 200px;
+    margin: auto;
+    margin-top: 15%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid rgb(205, 49, 200);
+
+}
