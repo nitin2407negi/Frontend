@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container .items{
+    background-color: blueviolet;
+    height: 80px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.items:nth-child(2){
+    background-color: rgb(4, 22, 53);
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3 span;
+}
+.items:nth-child(1)
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
