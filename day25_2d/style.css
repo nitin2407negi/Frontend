@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+.box{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    transition: width 3s, transform 2s;
+}
+.box1:hover{
+    transform: translate(50px,50px);
+}
+.box2:hover{
+   transform: rotate(45deg);
+}
+.box3:hover{
+    transform: skew(45deg);
+ }
+ .box4:hover{
+    transform: scale(3);
+    width: 300px;
+ } 
+

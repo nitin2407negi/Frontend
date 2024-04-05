@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color: gray;
+}
+.herosection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftdiv
+{
+    height: 600px;
+    width: 300px;
+    background-color: gray;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+}
+.rightdiv{
+    height: 600px;
+    width: 300px;
+    background-color: gray;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    position: sticky;
+    top: 10px;
+}
+
+.center {
+    height: 589px;
+    width: 731px;
+    position: absolute;
+    left: 400px;
+    top: 92px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.pics img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}   
+.mainpic img{
+    height: 447px;
+    width: 719px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
