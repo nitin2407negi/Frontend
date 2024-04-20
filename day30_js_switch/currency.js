@@ -6,7 +6,7 @@ const euro=88.89
 const dinar=272.79;
 let result;
 
-let convert=parseInt(prompt("INR to Pound enter 1\n INR to dollar 2\n INR to yen enter 3\n  euro to inr enter 4\n dinar to inr enter 5"));
+let convert=parseInt(prompt("INR to Pound enter 1\n INR to dollar enter 2\n INR to yen enter 3\n  euro to inr enter 4\n dinar to inr enter 5"));
 switch(convert){
     case 1:{
         console.log("....INR to pound....");
