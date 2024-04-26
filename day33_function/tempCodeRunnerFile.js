@@ -1,2 +1,5 @@
-let a=20,b=10;
-// console.log(`sum of ${a} and ${b}=${a+b}`);
+const sum=(a,b)=> {
+//     console.log(`sum of ${a} and ${b}=${a+b}`);
+//     return a+b;
+// }
+// sum(10,20);

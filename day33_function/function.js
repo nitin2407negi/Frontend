@@ -1,6 +1,10 @@
 //function=>block of code to perform or execute a particular task
-// let a=20,b=10;
-// console.log(`sum of ${a} and ${b}=${a+b}`);
+// types
+// function with argument & return type 
+// function with argument and no return type
+// function  without argument and no retuern type
+// function without arguments and return type
+
 
 
 function add(a,b){
