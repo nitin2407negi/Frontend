@@ -10,10 +10,10 @@ for(let key in arr)
 
 for(let element of arr)
 {
-    // console.log(element);
+    console.log(element);
 }
 
-arr.forEach((value,index)=>console.log(value,index))
+// arr.forEach((value,index)=>console.log(value,index))
 
 
 
