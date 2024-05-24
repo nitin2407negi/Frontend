@@ -5,12 +5,12 @@ const arr = [
 
 for(let key in arr)
 {
-    // console.log(key,arr[key]);
+    console.log(key,arr[key]);
 }
 
 for(let element of arr)
 {
-    console.log(element);
+    // console.log(element);
 }
 
 // arr.forEach((value,index)=>console.log(value,index))
