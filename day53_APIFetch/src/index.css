@@ -1,4 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   background-color: black;
   color: white;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+}
+.navbar .item{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
 }

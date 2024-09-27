@@ -1,7 +1,9 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 
 const Course_Detail = () => {
+  console.log(useLocation());
+  
   const arr = [
     {
       id: 'MERN001',
@@ -41,8 +43,12 @@ const Course_Detail = () => {
       <div>
         <h1>Course ID: {id}</h1>
         <h2>Course Name: {course_detail[0].course_name}</h2>
-        <h2>Duration: {course_detail[0].duration}</h2>
-        <h2>Price: {course_detail[0].price}</h2>
+
+        {location.pathname!="/course/PY003" &&(<>
+          <h2>Duration: {course_detail[0].duration}</h2>
+          <h2>Price: {course_detail[0].price}</h2>
+        </>)}
+        
       </div>
       <button>
         <Link to="/course" style={{ textDecoration: 'none', color: 'black' }}>
